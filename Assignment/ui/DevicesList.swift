@@ -20,6 +20,6 @@ struct DevicesList: View {
                     AssignmentText(text: device.name)
                 }
             }
-        }
+        }.listStyle(.plain)
     }
 }
